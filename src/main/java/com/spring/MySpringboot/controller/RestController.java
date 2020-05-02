@@ -15,4 +15,9 @@ public class RestController {
 	public String hello() {
 		return "Hello World!! The current Date and time is "+LocalDateTime.now();
 	}
+	
+	@GetMapping("/name")
+	public String name() {
+		return "Trying to see how pull request works";
+	}
 }
