@@ -18,6 +18,7 @@ public class RestController {
 	
 	@GetMapping("/name")
 	public String name() {
-		return "Trying to see how pull request works";
+		//return "Trying to see how pull request works";
+		return "Testing commit from git";
 	}
 }
